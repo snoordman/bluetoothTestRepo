@@ -47,5 +47,29 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>NSBluetoothPeripheralUsageDescription</key>
+<string>Bluetooth access is required to discover and connect to Bluetooth devices.</string>
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Bluetooth access is required to discover and connect to Bluetooth devices even when the app is in the background.</string>
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Bluetooth access is required to discover and connect to Bluetooth devices even when the app is in the background.</string>
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Location access is required to discover and connect to Bluetooth devices.</string>
+
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Location access is required to discover and connect to Bluetooth devices even when the app is in the background.</string>
+
+<key>UIBackgroundModes</key>
+<array>
+    <string>bluetooth-central</string>
+    <string>bluetooth-peripheral</string>
+    <string>location</string>
+</array>
+
+
 </dict>
 </plist>
